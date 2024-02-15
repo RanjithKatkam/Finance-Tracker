@@ -1,0 +1,324 @@
+.dash-main-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(216, 178, 178, 0.327);
+}
+
+.dash-sub-container {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.dash-navbar {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #dadada;
+    justify-content: space-between;
+}
+
+.dash-navbar h1 {
+    font-family: "Bree Serif";
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: lightseagreen;
+    margin-left: 43px;
+}
+
+.dash-navbar button {
+    height: 34px;
+    width: 90px;
+    margin-right: 43px;
+    border-radius: 9px;
+    background-color: lightseagreen;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Bree Serif";
+    letter-spacing: 1.5px;
+}
+
+.details-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+    height: 30%;
+}
+
+.dets {
+    background-color: rgba(216, 178, 178, 0.327);
+    width: 30%;
+    height: 50%;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.dets input {
+    width: 56%;
+    height: 30px;
+    border-radius: 6px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid rgb(119, 123, 124);
+    margin-bottom: 20px;
+    color: #0e0d0d;
+}
+
+.done {
+    height: 34px;
+    width: 90px;
+    border-radius: 6px;
+    margin-left: 5%;
+    background-color: lightseagreen;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Bree Serif";
+    letter-spacing: 1.5px;
+}
+
+.dets p:nth-child(1) {
+    font-family: "Mulish";
+    font-weight: 900;
+    font-size: 20px;
+    color: lightseagreen;
+}
+
+.dets p:nth-child(2) {
+    font-family: "Bree Serif";
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.income {
+    display: inline;
+    margin-right: 170px;
+}
+
+.edit {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: lightseagreen;
+    font-family: "Bree Serif";
+    background-color: transparent;
+    letter-spacing: 1.5px;
+    text-decoration: underline;
+}
+
+.add-trans-div {
+    height: 10%;
+    width: 94%;
+    background-color: rgba(216, 178, 178, 0.327);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Mulish";
+    font-weight: 800;
+    color: #5d4e4e;
+    cursor: pointer;
+}
+
+.trans-form-div {
+    backdrop-filter: blur(2px);
+    background: rgba(45, 43, 43, 0.608);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.trans-form {
+    height: 400px;
+    width: 650px;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    transform: translate(-50%, -50%);
+}
+
+.trans-form h1 {
+    text-align: center;
+    font-family: "Mulish";
+    font-weight: 700;
+    font-size: 24px;
+    color: lightseagreen;
+}
+
+.trans-form .trans-form-div2 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.trans-form label {
+    font-family: "Mulish";
+    font-weight: 700;
+    font-size: 15px;
+    color: rgba(46, 44, 44, 0.723);
+    margin-bottom: 10px;
+}
+
+.trans-form select,
+input {
+    width: 96%;
+    height: 30px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid rgb(58, 61, 62);
+    margin-bottom: 15px;
+}
+
+.trans-btns-div {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.trans-btns-div button:nth-child(1) {
+    width: 190px;
+    height: 30px;
+    border-radius: 9px;
+    background-color: lightseagreen;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Bree Serif";
+    letter-spacing: 1.5px;
+    display: inline;
+}
+
+.trans-btns-div button:nth-child(2) {
+    width: 190px;
+    height: 30px;
+    border-radius: 9px;
+    background-color: transparent;
+    border: 1px solid #0a0a0a;
+    outline: none;
+    cursor: pointer;
+    color: #0a0a0a;
+    font-family: "Bree Serif";
+    letter-spacing: 1.5px;
+    display: inline;
+}
+
+.logout-div {
+    height: 180px;
+    width: 550px;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    transform: translate(-50%, -50%);
+}
+
+.logout-div h1 {
+    font-family: "Mulish";
+    text-align: center;
+    font-size: 20px;
+    color: lightseagreen;
+    height: 20%;
+    margin-top: 40px;
+}
+
+.logout-div div {
+    height: 40%;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logout-div div button:nth-child(1) {
+    width: 120px;
+    height: 35px;
+    border-radius: 9px;
+    background-color: lightseagreen;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Bree Serif";
+    letter-spacing: 1.5px;
+    display: inline;
+}
+
+.logout-div div button:nth-child(2) {
+    width: 120px;
+    height: 30px;
+    border-radius: 9px;
+    background-color: transparent;
+    border: 1px solid #0a0a0a;
+    outline: none;
+    cursor: pointer;
+    color: #0a0a0a;
+    font-family: "Bree Serif";
+    letter-spacing: 1.5px;
+    display: inline;
+}
+
+.trans-heaidng {
+    font-family: "Mulish";
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.transactions-div {
+    height: 45%;
+    width: 93%;
+    margin: 0;
+    padding: 0;
+    margin-top: auto;
+    list-style: none;
+    overflow: auto;
+}
+
+.transactions-div li {
+    background-color: rgba(62, 56, 56, 0.327);
+    height: 60px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-left: 5px solid lightseagreen;
+}
+
+.list-cat {
+    font-size: 18px;
+    margin-bottom: 0px;
+    font-family: "Bree Serif";
+    color: #352f2f;
+}
+
+.list-date {
+    margin-top: 0px;
+    font-family: "Bree Serif";
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.list-amount {
+    font-size: 25px;
+    font-family: "Bree Serif";
+    color: #352f2f;
+}

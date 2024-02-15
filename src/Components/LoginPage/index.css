@@ -1,0 +1,110 @@
+.login-main-container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://res.cloudinary.com/dwgg5pyqk/image/upload/v1707830984/pexels-pixabay-316093_meaapk.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.login-sub-container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(6px);
+    height: 70%;
+    width: 27%;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-sub-container img {
+    height: 40%;
+}
+
+.login-details-container {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.a1 {
+    height: 100%;
+}
+
+.login-details-container label {
+    font-family: "Roboto";
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+
+.login-details-container input {
+    width: 96%;
+    height: 30px;
+    border-radius: 6px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid lightblue;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.login-details-container button {
+    margin-top: auto;
+    height: 40px;
+    width: 35%;
+    border-radius: 9px;
+    background-color: lightslategray;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Bree Serif";
+    letter-spacing: 1.5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    transition: background-color 0.7s ease;
+}
+
+.login-details-container button:hover {
+    background-color: rgba(119, 136, 153, 0.807);
+}
+
+.error {
+    color: rgba(255, 0, 0, 0.682);
+    font-family: "Bree Serif";
+    font-size: 14px;
+    letter-spacing: 0.8px;
+}
+
+.login-sub-container2 {
+    height: 5%;
+    width: 28%;
+    display: flex;
+    align-items: center;
+}
+
+.login-sub-container2 h1 {
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+.login-sub-container2 button {
+    color: #408cff;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: "Bree Serif";
+    font-style: italic;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: transparent;
+}
